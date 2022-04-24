@@ -45,9 +45,9 @@ function changeTitle(num1, num2) {
     
 
   } else if (num1 > num2) {
-    document.querySelector("h1").innerHTML = "🎲Player 1 Wins! 🎲";
+    document.querySelector("h1").innerHTML = "🎲Player 1 Wins!🎲";
   } else {
-    document.querySelector("h1").innerHTML = "🎲Player 2 Wins! 🎲";
+    document.querySelector("h1").innerHTML = "🎲Player 2 Wins!🎲";
   }
 }
 
