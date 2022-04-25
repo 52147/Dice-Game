@@ -8,9 +8,7 @@
   text-align: center;
   display: inline-block;
   padding: 10px;
-
   width: 20%;
-
 }
 
 body {
@@ -33,18 +31,11 @@ p {
   font-family: 'Bungee Shade',
     cursive;
   margin-top: 0%;
-
-
 }
 
 .c {
-
   width: 5%;
   display: inline-block;
-
-
-
-
 }
 
 img {
@@ -56,5 +47,4 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
