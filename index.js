@@ -26,8 +26,6 @@
 if (performance.getEntriesByType("navigation")[0].type === "reload") {
     rollDice();
  }
-
-
  
 function rollDice() {
   var randomNumber1 = `images/dice${Math.floor(Math.random() * 6) + 1}.png`;
@@ -41,8 +39,7 @@ function rollDice() {
  
 function changeTitle(num1, num2) {
   if (num1 === num2) {
-    document.querySelector("h1").innerHTML = "🎲Draw!🎲";
-    
+    document.querySelector("h1").innerHTML = "🎲Draw!🎲";    
 
   } else if (num1 > num2) {
     document.querySelector("h1").innerHTML = "🎲Player 1 Wins!🎲";
@@ -50,27 +47,3 @@ function changeTitle(num1, num2) {
     document.querySelector("h1").innerHTML = "🎲Player 2 Wins!🎲";
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
